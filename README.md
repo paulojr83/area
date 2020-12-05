@@ -14,7 +14,7 @@ func Rect(base, altura float64) float64
  
 <h3>Teste unitário básico
 
-`
+<pre>
 go test -cover .\matematica\
  
 go test --coverprofile=resultado.out .\matematica\
@@ -22,6 +22,4 @@ go test --coverprofile=resultado.out .\matematica\
 go tool cover -func=resultado.out
  
 go tool cover -html=resultado.out
-
-`
- 
+</pre> 
